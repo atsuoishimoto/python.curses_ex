@@ -19,5 +19,6 @@ setup(name='curses_ex',
             "License :: OSI Approved :: BSD License", ],
     
       ext_modules=[
-          Extension('curses_ex', ['curses_ex.c']),],
+          Extension('curses_ex', ['curses_ex.c'],
+               libraries = ['curses']),],
 )
