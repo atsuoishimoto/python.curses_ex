@@ -5,7 +5,7 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(name='curses_ex',
-      version='0.2',
+      version='0.3',
       description='Provide additional curses functions.',
       author='Atsuo Ishimoto',
       author_email='ishimoto@gembook.org',
