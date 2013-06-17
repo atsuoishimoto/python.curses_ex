@@ -15,7 +15,7 @@
 
 static void
 curses_ex_seterror(const char *fname) {
-    PyObject *curses, *err;
+    PyObject *curses, *err=NULL;
     curses = PyImport_ImportModule("curses");
     if (!curses) {
         goto done;
