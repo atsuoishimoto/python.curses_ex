@@ -20,5 +20,5 @@ setup(name='curses_ex',
     
       ext_modules=[
           Extension('curses_ex', ['curses_ex.c'],
-               libraries = ['curses']),],
+               libraries = ['ncurses']),],
 )
